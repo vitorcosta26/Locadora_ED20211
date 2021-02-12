@@ -1,5 +1,5 @@
 package br.unit;
-// Questão 03.
+// QuestÃ£o 03.
 public class Filme extends Item {
 	// Item a.
 	private String diretor;
@@ -10,11 +10,11 @@ public class Filme extends Item {
 	}
 	
 	public Filme(String titulo, int anoLancamento, String comentario, String diretor, int duracao, String genero) {
-        super(titulo, anoLancamento, comentario);
-        this.diretor = diretor;
-        this.duracao = duracao;
-        this.genero = genero;
-    }
+        	super(titulo, anoLancamento, comentario);
+        	this.diretor = diretor;
+        	this.duracao = duracao;
+        	this.genero = genero;
+	}
 	// Item c.
 	public String getDiretor() {
 		return diretor;
@@ -42,14 +42,14 @@ public class Filme extends Item {
 	// Item d.
 	@Override
 	public void ListaInformacoes() {
-		System.out.println("Informações do Filme\n"+
+		System.out.println("InformaÃ§Ãµes do Filme\n"+
 				"-----------------------------------------\n" +
-                "Título: " + this.getTitulo() + "\n" +
-                "Ano de Lançamento: " + this.getAnoLancamento() + "\n" +
-                "Comentário: " + this.getComentario() + "\n" +
+                "TÃ­tulo: " + this.getTitulo() + "\n" +
+                "Ano de LanÃ§amento: " + this.getAnoLancamento() + "\n" +
+                "ComentÃ¡rio: " + this.getComentario() + "\n" +
                 "Diretor: " + this.diretor + "\n" +
-                "Duração: " + this.duracao + "\n" +
-                "Gênero: " + this.genero +
+                "DuraÃ§Ã£o: " + this.duracao + "\n" +
+                "GÃªnero: " + this.genero +
                 "\n-----------------------------------------");
 	}
 }
