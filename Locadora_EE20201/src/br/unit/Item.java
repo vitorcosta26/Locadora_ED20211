@@ -1,10 +1,12 @@
 package br.unit;
 // Questão 01.
 public abstract class Item {
+	
 	// Item a.
 	public String titulo;
 	public int anoLancamento;
 	public String comentario;
+	
 	// Item b.
 	public Item() {
 	}
@@ -14,6 +16,7 @@ public abstract class Item {
 		this.anoLancamento = anoLancamento;
 		this.comentario = comentario;
 	}
+	
 	// Item c.
 	public String getTitulo() {
 		return titulo;
@@ -38,6 +41,7 @@ public abstract class Item {
 	public void setComentario(String comentario) {
 		this.comentario = comentario;
 	}
+	
 	// Item d.
 	public abstract void ListaInformacoes();
 }
