@@ -1,5 +1,5 @@
 package br.unit;
-// Quest„o 01.
+// Quest√£o 01.
 public abstract class Item {
 	// Item a.
 	public String titulo;
@@ -40,5 +40,4 @@ public abstract class Item {
 	}
 	// Item d.
 	public abstract void ListaInformacoes();
-
 }
