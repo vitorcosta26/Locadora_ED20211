@@ -1,20 +1,20 @@
 package br.unit;
-// Quest„o 02.
+// Quest√£o 02.
 public class Disco extends Item {
 	// Item a.
 	private String artista;
 	private int qtdFaixas;
 	private String midia;
 	// Item b.
-    public Disco() {
-    }
+    	public Disco() {
+    	}
 
-    public Disco(String titulo, int anoLancamento, String comentario, String artista, int qtdFaixas, String midia) {
-        super(titulo, anoLancamento, comentario);
-        this.artista = artista;
-        this.qtdFaixas = qtdFaixas;
-        this.midia = midia;
-    }
+    	public Disco(String titulo, int anoLancamento, String comentario, String artista, int qtdFaixas, String midia) {
+        	super(titulo, anoLancamento, comentario);
+        	this.artista = artista;
+        	this.qtdFaixas = qtdFaixas;
+        	this.midia = midia;
+    	}
 	// Item c.
 	public String getArtista() {
 		return artista;
@@ -42,14 +42,14 @@ public class Disco extends Item {
 	// Item d.
 	@Override
 	public void ListaInformacoes() {
-		System.out.println("InformaÁıes do Disco\n"+
-				"-----------------------------------------\n" +
-                "TÌtulo: " + this.getTitulo() + "\n" +
-                "Ano de LanÁamento: " + this.getAnoLancamento() + "\n" +
-                "Coment·rio: " + this.getComentario() + "\n" +
+		System.out.println("Informa√ß√µes do Disco\n"+
+		"-----------------------------------------\n" +
+                "T√≠tulo: " + this.getTitulo() + "\n" +
+                "Ano de Lan√ßamento: " + this.getAnoLancamento() + "\n" +
+                "Coment√°rio: " + this.getComentario() + "\n" +
                 "Artista: " + this.artista + "\n" +
                 "Quantidade de Faixas: " + this.qtdFaixas + "\n" +
-                "Tipo de MÌdia: " + this.midia +
+                "Tipo de M√≠dia: " + this.midia +
                 "\n-----------------------------------------");
 	}
 }
