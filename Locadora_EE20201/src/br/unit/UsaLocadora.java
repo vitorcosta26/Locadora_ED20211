@@ -1,5 +1,5 @@
 package br.unit;
-
+// Questão 05.
 public class UsaLocadora {
 
 	public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class UsaLocadora {
 		// Instanciando os objetos discos a classe Disco.
 		aluguel.novoDisco(disco1);
 	    	aluguel.novoDisco(disco2);
-	    	// Listando as informaçoes.
+	    	// Listando as informações.
 	    	aluguel.listarDiscos();
 		
 		// Atribuindo Informações do Filme 1.
@@ -23,7 +23,7 @@ public class UsaLocadora {
 	    	// Instanciando os objetos filmes a classe Filme.
 	    	aluguel.novoFilme(filme1);
 	    	aluguel.novoFilme(filme2);
-	    	// Listando as informaçoes.
+	    	// Listando as informações.
 	    	aluguel.listarFilmes();
 
 	}
