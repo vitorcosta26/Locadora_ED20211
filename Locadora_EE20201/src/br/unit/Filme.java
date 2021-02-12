@@ -1,10 +1,12 @@
 package br.unit;
 // Questão 03.
 public class Filme extends Item {
+	
 	// Item a.
 	private String diretor;
 	private int duracao;
 	private String genero;
+	
 	// Item b.
 	public Filme() {
 	}
@@ -15,6 +17,7 @@ public class Filme extends Item {
         	this.duracao = duracao;
         	this.genero = genero;
 	}
+	
 	// Item c.
 	public String getDiretor() {
 		return diretor;
@@ -39,6 +42,7 @@ public class Filme extends Item {
 	public void setGenero(String genero) {
 		this.genero = genero;
 	}
+	
 	// Item d.
 	@Override
 	public void ListaInformacoes() {
