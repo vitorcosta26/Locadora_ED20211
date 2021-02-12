@@ -43,7 +43,7 @@ public class Filme extends Item {
 	@Override
 	public void ListaInformacoes() {
 		System.out.println("Informações do Filme\n"+
-				"-----------------------------------------\n" +
+		"-----------------------------------------\n" +
                 "Título: " + this.getTitulo() + "\n" +
                 "Ano de Lançamento: " + this.getAnoLancamento() + "\n" +
                 "Comentário: " + this.getComentario() + "\n" +
